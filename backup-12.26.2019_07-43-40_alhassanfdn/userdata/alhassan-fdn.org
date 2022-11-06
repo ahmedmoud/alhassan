@@ -1,0 +1,27 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/alhassan-fdn.org
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/alhassan-fdn.org-bytes_log
+documentroot: /home/alhassanfdn/public_html
+group: alhassanfdn
+hascgi: 1
+homedir: /home/alhassanfdn
+ip: 185.61.154.18
+owner: dmonbgkp
+phpopenbasedirprotect: 1
+port: 81
+scriptalias: 
+  - 
+    path: /home/alhassanfdn/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@alhassan-fdn.org
+serveralias: www.alhassan-fdn.org mail.alhassan-fdn.org
+servername: alhassan-fdn.org
+ssl: 1
+usecanonicalname: 'Off'
+user: alhassanfdn
+userdirprotect: ''

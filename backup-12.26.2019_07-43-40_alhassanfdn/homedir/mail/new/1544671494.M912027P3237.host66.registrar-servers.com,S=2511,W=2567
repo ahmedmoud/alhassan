@@ -1,0 +1,56 @@
+Return-Path: <>
+Delivered-To: alhassanfdn@host66.registrar-servers.com
+Received: from host66.registrar-servers.com
+	by host66.registrar-servers.com with LMTP id SCLYNQbREVylDAAA4ueBqA
+	for <alhassanfdn@host66.registrar-servers.com>; Wed, 12 Dec 2018 22:24:54 -0500
+Return-path: <>
+Envelope-to: alhassanfdn@host66.registrar-servers.com
+Delivery-date: Wed, 12 Dec 2018 22:24:54 -0500
+Received: from mailnull by host66.registrar-servers.com with local (Exim 4.91)
+	id 1gXHcM-000BKE-Rv
+	for alhassanfdn@host66.registrar-servers.com; Wed, 12 Dec 2018 22:24:54 -0500
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host66.registrar-servers.com>
+To: alhassanfdn@host66.registrar-servers.com
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1gXHcM-000BKE-Rv@host66.registrar-servers.com>
+Date: Wed, 12 Dec 2018 22:24:54 -0500
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  "Relaying not permitted"
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from alhassanfdn by host66.registrar-servers.com with local (Exim 4.91)
+	(envelope-from <alhassanfdn@host66.registrar-servers.com>)
+	id 1gXHcM-000BK8-RQ
+	for alhassan@alhassan.com; Wed, 12 Dec 2018 22:24:54 -0500
+To: alhassan@alhassan.com
+Subject: [alhassan] Your site has updated to WordPress 4.9.9
+X-PHP-Script: alhassan-fdn.org/wp-cron.php for 185.61.154.16, 185.61.154.16
+X-PHP-Filename: /home/alhassanfdn/public_html/wp-cron.php REMOTE_ADDR: 185.61.154.16
+Date: Thu, 13 Dec 2018 03:24:54 +0000
+From: Alhassan Foundation <mhatem@alhassan-fdn.org>
+Message-ID: <6ddb11e78bfee3bf3fca4968861b1a83@alhassan-fdn.org>
+X-Mailer: WPMailSMTP/Mailer/smtp 1.2.5
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <alhassanfdn@host66.registrar-servers.com>
+
+Howdy! Your site at https://alhassan-fdn.org has been updated automatically to WordPress 4.9.9.
+
+For more on version 4.9.9, see the About WordPress screen:
+https://alhassan-fdn.org/wp-admin/about.php
+
+WordPress 5.0.1 is also now available. Updating is easy and only takes a few moments:
+https://alhassan-fdn.org/wp-admin/update-core.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.
+
+The WordPress Team
+

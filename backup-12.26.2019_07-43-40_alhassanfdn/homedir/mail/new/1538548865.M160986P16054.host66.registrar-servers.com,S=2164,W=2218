@@ -1,0 +1,54 @@
+Return-Path: <>
+Delivered-To: alhassanfdn@host66.registrar-servers.com
+Received: from host66.registrar-servers.com
+	by host66.registrar-servers.com with LMTP id 2EkmCIFktFu2PgAA4ueBqA
+	for <alhassanfdn@host66.registrar-servers.com>; Wed, 03 Oct 2018 02:41:05 -0400
+Return-path: <>
+Envelope-to: alhassanfdn@host66.registrar-servers.com
+Delivery-date: Wed, 03 Oct 2018 02:41:05 -0400
+Received: from mailnull by host66.registrar-servers.com with local (Exim 4.91)
+	id 1g7aqH-0004Ao-2m
+	for alhassanfdn@host66.registrar-servers.com; Wed, 03 Oct 2018 02:41:05 -0400
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host66.registrar-servers.com>
+To: alhassanfdn@host66.registrar-servers.com
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1g7aqH-0004Ao-2m@host66.registrar-servers.com>
+Date: Wed, 03 Oct 2018 02:41:05 -0400
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  "Relaying not permitted"
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from alhassanfdn by host66.registrar-servers.com with local (Exim 4.91)
+	(envelope-from <alhassanfdn@host66.registrar-servers.com>)
+	id 1g7aqH-0004Ak-23
+	for alhassan@alhassan.com; Wed, 03 Oct 2018 02:41:05 -0400
+To: alhassan@alhassan.com
+Subject: [alhassan] Notice of Password Change
+X-PHP-Script: alhassan-fdn.org/wp-admin/profile.php for 41.234.100.99, 41.234.100.99
+X-PHP-Filename: /home/alhassanfdn/public_html/wp-admin/profile.php REMOTE_ADDR: 41.234.100.99
+Date: Wed, 3 Oct 2018 06:41:04 +0000
+From: Alhassan Foundation <mhatem@alhassan-fdn.org>
+Message-ID: <1aaed586769f08c059f4f6d2b010a378@alhassan-fdn.org>
+X-Mailer: WPMailSMTP/Mailer/smtp 1.2.5
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <alhassanfdn@host66.registrar-servers.com>
+
+Hi admin,
+
+This notice confirms that your password was changed on alhassan.
+
+If you did not change your password, please contact the Site Administrator at
+alhassan@alhassan.com
+
+This email has been sent to alhassan@alhassan.com
+
+Regards,
+All at alhassan
+https://alhassan-fdn.org
+

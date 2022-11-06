@@ -1,0 +1,310 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+# Last config file used to build this data file was /home/alhassanfdn/tmp/awstats/awstats.alhassan-fdn.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2016                
+POS_TIME 2685                
+POS_VISITOR 7701                
+POS_DAY 8250                
+POS_DOMAIN 3437                
+POS_LOGIN 3759                
+POS_ROBOT 3914                
+POS_WORMS 4453                
+POS_EMAILSENDER 4584                
+POS_EMAILRECEIVER 4727                
+POS_SESSION 8568                
+POS_SIDER 8727                
+POS_FILETYPES 4862                
+POS_DOWNLOADS 5004                
+POS_OS 5052                
+POS_BROWSER 5187                
+POS_SCREENSIZE 5436                
+POS_UNKNOWNREFERER 5510                
+POS_UNKNOWNREFERERBROWSER 5768                
+POS_ORIGIN 5907                
+POS_SEREFERRALS 6037                
+POS_PAGEREFS 6200                
+POS_SEARCHWORDS 6438                
+POS_KEYWORDS 6590                
+POS_MISC 2349                
+POS_ERRORS 6649                
+POS_CLUSTER 3615                
+POS_SIDER_404 6774                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201000444 328 68237 15737476144793
+FirstTime 0
+LastTime 20190129163916
+LastUpdate 20190201073508 328 0 327 0 0
+TotalVisits 13                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 13                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 4 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 581 633 236406
+1 2 7 148856 571 650 184598
+2 1 1 60274 1384 1415 461275
+3 0 3 27017 1733 1819 1778011
+4 2 2 28908 1621 1668 1436131
+5 1 1 14455 1362 1399 878550
+6 0 0 0 1432 1483 789963
+7 1 1 14455 1378 1459 603715
+8 0 0 0 1443 1502 784342
+9 0 0 0 1995 2040 1520374
+10 3 3 9869 1940 1974 1220379
+11 0 0 0 1167 1228 488551
+12 1 1 11402 727 769 274742
+13 0 0 0 584 621 174502
+14 0 0 0 641 697 193270
+15 0 0 0 601 636 188090
+16 1 1 540 636 679 238717
+17 0 0 0 469 500 136965
+18 0 0 0 377 401 110745
+19 0 0 0 331 363 110408
+20 2 2 12614 324 350 98064
+21 0 0 0 265 287 91937
+22 0 0 0 424 458 169671
+23 0 0 0 322 360 99764
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+eg 4 7 84835
+gb 3 3 0
+de 1 1 14455
+my 1 1 9869
+ca 1 1 12614
+us 1 1 11402
+ru 1 1 60274
+hu 1 1 540
+kw 1 6 134401
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+discover 21 1265376 20190130050107 0
+MJ12bot/ 20 221423 20190129100505 0
+(firefox/)([0-9]\.|[0-1][0]\.) 8 389799 20190131042936 0
+Googlebot/ 4 24885 20190131165051 2
+YandexBot/ 3 35098 20190131035339 0
+bingbot/ 3 7825 20190120060151 2
+Baiduspider/ 2 110760 20190126160252 0
+DuckDuckGo\-Favicons\-Bot/ 1 14455 20190107111111 0
+SemrushBot/ 1 10774 20190128152251 0
+Apache\-HttpClient/ 1 250 20190109030511 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 3 0 0 0
+ttf 1 90620 0 0
+html 10 166972 0 0
+js 1 11584 0 0
+css 7 59214 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win7 11 5
+linux 3 3
+linuxandroid 1 1
+macosx 1 1
+win10 2 0
+Unknown 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+Unknown 3 3
+opera56.0.3051.116 2 0
+chrome65.0.3325.181 1 1
+chrome34.0.1847.137 1 1
+safari12.0.2 1 1
+chrome71.0.3578.98 8 2
+chrome64.0.3282.140 3 3
+firefox55.0 1 1
+chrome71.0.3578.99 1 1
+mozilla 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190118013242
+WordPress/4.9.9;_https://alhassan-fdn.org 20190127200311
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/4.9.9;_https://alhassan-fdn.org 20190127200311
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5 5
+From1 0 0
+From2 1 1
+From3 1 7
+From4 7 9
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://185.61.154.18:443 1 1
+http://alhassan-website.zadsolutions.com/donate-return/ 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 1 0
+404 76 3207562
+301 23245 6979986
+400 1 1
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 8
+/ar_ar/classiffed/%D9%88%D8%B8%D8%A7%D8%A6%D9%81/ 7 -
+/wp-content/plugins/simple/zo.php 1 http://site.ru
+/ar_ar/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/ 36 -
+/%D8%A7%D8%AA%D8%B5%D9%84-%D8%A8%D9%86%D8%A7/ 3 -
+/ar_ar/classiffed/%D8%AF%D9%84%D9%8A%D9%84/ 6 -
+/ar_ar/contribution/donate/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/ 21 -
+/ar_ar/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/ 1 -
+/wp-includes/js/imgareaselect/newsleter.php 1 http://site.ru
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 13
+185.61.154.16 3 3 0 20190127200311
+197.33.87.130 2 2 28908 20190108044212
+159.65.190.111 1 1 11402 20190113122750
+62.150.13.230 1 6 134401 20190106014616
+41.65.3.226 1 1 14455 20190103075324
+137.226.113.28 1 1 14455 20190118013242
+185.142.236.34 1 1 60274 20190118024112
+37.17.172.132 1 1 540 20190129163916
+197.33.35.125 1 1 14455 20190111052710
+113.210.183.146 1 1 9869 20190126100931
+47.144.158.48 1 1 12614 20190127200310
+197.33.35.196 0 1 578 
+156.209.162.148 0 2 26439 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20190103 1 1 14455 1
+20190106 1 6 134401 1
+20190107 1 1 0 1
+20190108 2 2 28908 1
+20190111 1 1 14455 1
+20190113 1 1 11402 1
+20190114 1 1 0 1
+20190118 2 2 74729 2
+20190119 0 1 578 0
+20190121 0 2 26439 0
+20190126 1 1 9869 1
+20190127 2 2 12614 2
+20190129 1 1 540 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 12
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 6 132547 5 5
+/wp-cron.php 3 0 3 3
+/en/ 1 12614 1 1
+/comments/feed/ 1 540 1 1
+/%d8%b4%d8%b1%d9%83%d8%a7%d8%a6%d9%86%d8%a7/ 1 11402 1 1
+/en/contact-us-2/ 1 9869 1 1
+/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.ttf 1 90620 1 1
+END_SIDER

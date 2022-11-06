@@ -1,0 +1,343 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201809 will be lost/reset.
+# Last config file used to build this data file was /home/alhassanfdn/tmp/awstats/awstats.alhassan-fdn.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2016                
+POS_TIME 2699                
+POS_VISITOR 8581                
+POS_DAY 9262                
+POS_DOMAIN 3471                
+POS_LOGIN 3798                
+POS_ROBOT 3953                
+POS_WORMS 4423                
+POS_EMAILSENDER 4554                
+POS_EMAILRECEIVER 4697                
+POS_SESSION 9510                
+POS_SIDER 9673                
+POS_FILETYPES 4832                
+POS_DOWNLOADS 5145                
+POS_OS 5266                
+POS_BROWSER 5417                
+POS_SCREENSIZE 5675                
+POS_UNKNOWNREFERER 5749                
+POS_UNKNOWNREFERERBROWSER 5919                
+POS_ORIGIN 6084                
+POS_SEREFERRALS 6220                
+POS_PAGEREFS 6364                
+POS_SEARCHWORDS 6640                
+POS_KEYWORDS 6792                
+POS_MISC 2362                
+POS_ERRORS 6851                
+POS_CLUSTER 3654                
+POS_SIDER_404 6989                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181001000235 573 115263 9399142460329
+FirstTime 20180905063831
+LastTime 20180926231700
+LastUpdate 20181001081257 573 0 572 0 0
+TotalVisits 19                  
+TotalUnique 13                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 13 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 62724 287 320 89043
+1 0 0 0 1179 1233 1350020
+2 0 0 0 1374 1425 1324008
+3 0 0 0 1887 2012 2917652
+4 0 0 0 1237 1291 672055
+5 1 1 10923 1467 1531 807439
+6 19 60 1650338 1648 1727 1744948
+7 225 512 22337733 2075 2216 4177437
+8 11 12 21385 1282 1384 1279426
+9 3 4 51854 1118 1219 827814
+10 3 3 15113 1179 1255 722863
+11 1 1 14980 1142 1188 717813
+12 1 1 0 1062 1131 443696
+13 0 0 0 887 1024 619423
+14 0 0 0 792 840 237389
+15 0 0 0 952 1006 402557
+16 0 2 4310 743 833 299211
+17 0 0 0 771 852 313903
+18 0 0 0 548 591 163470
+19 0 0 0 717 781 284543
+20 0 0 0 521 559 226382
+21 1 1 0 388 477 169038
+22 0 0 0 445 487 136225
+23 2 2 0 461 514 221981
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+eg 255 583 24020207
+gb 6 7 97
+nl 2 2 32261
+es 1 1 1673
+fr 1 1 14980
+eu 1 1 0
+us 1 3 67034
+za 1 1 10923
+iq 0 1 22185
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+discover 78 4868252 20180930100117 0
+Googlebot/ 11 87590 20180923172115 3
+YandexBot/ 9 44135 20180930132108 5
+(firefox/)([0-9]\.|[0-1][0]\.) 7 331252 20180930224055 0
+unknown 5 345 20180915082125 5
+MJ12bot/ 5 37887 20180929071025 0
+MegaIndex\.ru/ 5 53793 20180908034532 0
+AhrefsBot/ 1 69 20180918064219 1
+bingbot/ 1 8363 20180922165255 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+woff2 8 377424 0 0
+woff 8 30944 0 0
+Unknown 1 12526 0 0
+svg 2 240 0 0
+jpeg 2 287919 0 0
+ttf 6 2827 0 0
+jpg 50 18401129 0 0
+txt 2 194 0 0
+png 26 334763 0 0
+gif 6 31155 0 0
+html 42 722941 0 0
+js 123 1121412 0 0
+php 203 2113657 0 0
+css 121 732229 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/.well-known/pki-validation/17ED435E08633948B7DC9A540CB61240.txt 2 0 194
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+macosx11 2 2
+win8.1 2 2
+linuxandroid 3 1
+win7 3 2
+win10 582 254
+Unknown 7 6
+winxp 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome69.0.3497.100 1 1
+chrome67.0.3396.99 1 1
+chrome27.0.1453.93 1 1
+chrome38.0.1025.166 2 0
+chrome52.0.2758.9 2 2
+msie8.0 1 1
+Unknown 7 6
+chrome68.0.3440.106 582 253
+chrome69.0.3497.86 1 1
+firefox62.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WordPress/4.9.8;_https://alhassan-fdn.org 20180926231700
+COMODO_DCV 20180905080058
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/4.9.8;_https://alhassan-fdn.org 20180926231700
+COMODO_DCV 20180905080058
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 14 16
+From1 0 0
+From2 0 0
+From3 2 2
+From4 252 582
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://alhassan-website.zadsolutions.com/project/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%A7%D9%84%D8%A7%D9%88%D9%84/ 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+500 3 0
+301 25555 7504278
+302 13 0
+404 175 7209002
+405 13 546
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 14
+/success_story/%d9%82%d8%b5%d8%a9-%d9%86%d8%ac%d8%a7%d8%ad-%d8%b1%d8%a7%d9%86%d9%8a%d8%a7-%d8%b1%d8%b4%d8%af%d9%8a-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d9%88%d8%b9%d9%8a-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85/ 3 http://alhassan-fdn.org/
+/ar_ar/contribution/donate/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/ 1 -
+/alhassan_dev/wp-content/themes/born-to-give/born-to-give/images/logo-admin.png 1 http://alhassan-fdn.org/wp-login.php
+/wp-content/themes/born-to-give/born-to-give/css/bootstrap.min.css.map 5 -
+/robots.txt 3 -
+/ar_ar/contribution/donate/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/ 50 -
+/project/%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d8%a7%d9%88%d9%84/ 1 http://alhassan-fdn.org/
+/ar_ar/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/ 71 -
+/.well-known/pki-validation/17ED435E08633948B7DC9A540CB61240.txt 1 -
+/wp-includes/js/jquery/jquery.form.min.js.map 5 -
+/ar_ar/contribution/support/%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D8%A6%D8%AA%D9%85%D8%A7%D9%86/ 1 -
+/ar_ar/classiffed/%D9%88%D8%B8%D8%A7%D8%A6%D9%81/ 16 -
+/mailer1.php 1 http://alhassan-fdn.org/mailer1.php
+/ar_ar/classiffed/%D8%AF%D9%84%D9%8A%D9%84/ 16 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+196.221.243.126 251 579 23974249 20180905100609
+185.61.154.16 6 6 0 20180926231700
+41.39.136.81 1 1 1310 20180905063831
+178.62.91.246 1 1 0 20180905213328
+197.133.137.10 1 1 14979 20180912101617
+46.101.246.110 1 1 14915 20180923065747
+156.209.30.244 1 1 14915 20180917095926
+52.54.211.93 1 1 62724 20180926002230
+91.121.246.158 1 1 14980 20180905114233
+156.209.208.255 1 1 14754 20180920092834
+85.152.56.230 1 1 1673 20180905063836
+196.147.135.248 1 1 10923 20180915055557
+77.247.181.163 1 1 17346 20180905074912
+66.249.88.41 0 1 751 
+109.205.112.89 0 1 22185 
+91.199.212.132 0 1 97 
+66.249.83.195 0 1 3559 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20180905 256 585 24009655 7
+20180909 0 1 22185 0
+20180912 4 4 14979 4
+20180915 1 1 10923 1
+20180917 1 1 14915 1
+20180920 1 3 19064 1
+20180922 1 1 0 1
+20180923 1 1 14915 1
+20180926 3 3 62724 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 17
+30s-2mn 1
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/wp-admin/admin-ajax.php 176 169594 1 2
+/ 14 254997 7 6
+/%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9/ 9 140661 0 0
+/wp-admin/post.php 8 946264 0 0
+/%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d9%8a%d9%86/ 7 133124 1 1
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 6 17484 0 0
+/wp-cron.php 6 0 6 6
+/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons.ttf 6 2827 0 0
+/success_story/%d9%82%d8%b5%d8%a9-%d9%86%d8%ac%d8%a7%d8%ad-%d8%b1%d8%a7%d9%86%d9%8a%d8%a7-%d8%b1%d8%b4%d8%af%d9%8a-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a7%d9%84%d9%88%d8%b9%d9%8a-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85/ 6 94800 0 0
+/wp-admin/load-scripts.php 5 539575 0 0
+/wp-admin/load-styles.php 4 239701 0 0
+/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2 4 215688 0 0
+/wp-content/plugins/social-icons/assets/fonts/Socicon.woff2 4 161736 0 0
+/wp-login.php 3 4424 2 2
+/%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9/ 2 31256 0 0
+/en/ 1 17346 1 1
+/cpanel 1 12526 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 1 7536 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 1 214099 0 0
+/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.woff 1 5924 0 0
+/en/our-founders/ 1 18827 0 0
+/wp-admin/ 1 21007 0 0
+/%d8%a7%d8%b5%d8%a8%d8%ad-%d9%85%d8%aa%d8%b7%d9%88%d8%b9/ 1 10923 1 1
+END_SIDER

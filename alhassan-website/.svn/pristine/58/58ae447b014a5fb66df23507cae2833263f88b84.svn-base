@@ -1,0 +1,282 @@
+<?php
+/*
+Template Name: Credit Card
+*/
+get_header();
+global $borntogive_options;
+borntogive_sidebar_position_module();
+$pageSidebarGet = get_post_meta(get_the_ID(), 'borntogive_select_sidebar_from_list', true);
+$pageSidebarStrictNo = get_post_meta(get_the_ID(), 'borntogive_strict_no_sidebar', true);
+$pageSidebarOpt = $borntogive_options['page_sidebar'];
+if ($pageSidebarGet != '') {
+    $pageSidebar = $pageSidebarGet;
+} elseif ($pageSidebarOpt != '') {
+    $pageSidebar = $pageSidebarOpt;
+} else {
+    $pageSidebar = '';
+}
+if ($pageSidebarStrictNo == 1) {
+    $pageSidebar = '';
+}
+$sidebar_column = get_post_meta(get_the_ID(), 'borntogive_sidebar_columns_layout', true);
+$sidebar_column = ($sidebar_column == '') ? 4 : $sidebar_column;
+if (!empty($pageSidebar) && is_active_sidebar($pageSidebar)) {
+    $left_col = 12 - $sidebar_column;
+    $class = $left_col;
+} else {
+    $class = 12;
+}
+$page_header = get_post_meta(get_the_ID(), 'borntogive_pages_Choose_slider_display', true);
+if ($page_header == 3 || $page_header == 4) {
+    get_template_part('pages', 'flex');
+} elseif ($page_header == 5) {
+    get_template_part('pages', 'revolution');
+} else {
+    get_template_part('pages', 'banner');
+}
+?>
+    <!-- Start Body Content -->
+    <div id="main-container">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-<?php echo esc_attr($class); ?>" id="content-col">
+
+                        <div class="right-siderbar6">
+                            <div>
+                                <div class="col_header">
+                                <span
+                                    class="Logo-icn"></span><span><?php if (get_locale() == "ar") { ?>يرجى تسجيل البيانات التالية<?php } else { ?>Please Fill in The Form<?php } ?></span>
+                                </div>
+                                <div class="col_content">
+                                    <?php if (get_locale() == "ar") {
+                                        echo do_shortcode('[contact-form-7 id="1621" title="arabic donation form"]');
+                                    } else {
+                                        echo do_shortcode('[contact-form-7 id="1544" title="credit"]');
+                                    } ?>
+                                    <form action="<?php bloginfo('template_url'); ?>/vpc_php_serverhost_do.php"
+                                          method="post" style="display:none;" class="BAFDonate">
+                                        <input type="hidden" name="Title" value="PHP VPC 3-Party">
+                                        <table width="80%" align="center" border="0" cellpadding='0' cellspacing='0'>
+
+
+                                            <tr>
+                                                <td width="40%" align="right"><b><i>Virtual Payment Client
+                                                            URL:&nbsp;</i></b></td>
+                                                <td width="59%"><input type="text" name="virtualPaymentClientURL"
+                                                                       size="63"
+                                                                       value="https://migs.mastercard.com.au/vpcpay"
+                                                                       maxlength="250"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right"><b><i> VPC Version: </i></b></td>
+                                                <td><input type="text" name="vpc_Version" value="1" size="20"
+                                                           maxlength="8">
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Command Type: </i></b></td>
+                                                <td><input type="text" name="vpc_Command" value="pay" size="20"
+                                                           maxlength="16"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Merchant AccessCode: </i></b></td>
+                                                <td><input type="text" name="vpc_AccessCode" value="B972DDBB" size="20"
+                                                           maxlength="8"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Merchant Transaction Reference: </i></b></td>
+                                                <td><input type="text" name="vpc_MerchTxnRef" value="1234" size="20"
+                                                           maxlength="40"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>MerchantID: </i></b></td>
+                                                <td><input type="text" name="vpc_Merchant" value="Test290510EGP" size="20"
+                                                           maxlength="16"></td>
+                                            </tr>
+                                            <tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>secureID: </i></b></td>
+                                                <td><input type="text" name="al_secure"
+                                                           value="C0DF9A7B3819968807A9D4E48D0E65C6" size="20"
+                                                           maxlength="16"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Transaction OrderInfo: </i></b></td>
+                                                <td><input type="text" name="vpc_OrderInfo"
+                                                           value="Donation for Alhassan Foundation" size="20"
+                                                           maxlength="34"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Purchase Amount: </i></b></td>
+                                                <td><input type="text" name="vpc_Amount" value="100" size="20"
+                                                           maxlength="10"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Payment Server Display Language Locale: </i></b>
+                                                </td>
+                                                <td><?php if (get_locale() == "ar") { ?><input type="text"
+                                                                                               name="vpc_Locale"
+                                                                                               value="ar" size="20"
+                                                                                               maxlength="5"><?php } else { ?>
+                                                        <input type="text" name="vpc_Locale" value="en_AU" size="20"
+                                                               maxlength="5"><?php } ?></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Payment Currency: </i></b></td>
+                                                <td><input type="text" name="vpc_Currency" value="USD" size="20"
+                                                           maxlength="5"></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td align="right"><b><i>Receipt ReturnURL: </i></b></td>
+                                                <td><?php if (get_locale() == "ar") { ?><input type="text"
+                                                                                               name="vpc_ReturnURL"
+                                                                                               size="63"
+                                                                                               value="http://alhassan-website.zadsolutions.com/donate-return/"
+                                                                                               maxlength="250"><?php } else { ?>
+                                                        <input type="text" name="vpc_ReturnURL" size="63"
+                                                               value="http://alhassan-website.zadsolutions.com/donate-return/"
+                                                               maxlength="250"><?php } ?></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">&nbsp;</td>
+                                                <td><input type="submit" name="SubButL" value="Pay Now!"></td>
+                                            </tr>
+
+                                        </table>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <?php if (get_locale() == "ar") { ?>
+                            <script type="text/javascript">
+                                function Donate() {
+                                    var valid = 0;
+                                    for (var i = 0; i < jQuery('.DonationForm input.wpcf7-validates-as-required').length; i++) {
+                                        if (jQuery('.DonationForm input.wpcf7-validates-as-required:eq(' + i + ')').val() != '') {
+                                            valid++;
+                                        }
+                                    }
+
+                                    for (var i = 0; i < jQuery('.DonationForm select.wpcf7-validates-as-required').length; i++) {
+                                        if (jQuery('.DonationForm select.wpcf7-validates-as-required:eq(' + i + ') option:selected').attr('value') != '') {
+                                            valid++;
+                                        }
+                                    }
+                                    if (valid < 8) {
+                                        alert("من فضلك ادخل البيانات المطلوبة");
+                                    }
+                                    else {
+                                        var emailvalide = "^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})";
+                                        if (!jQuery('.DonationForm input.wpcf7-validates-as-email').val().match(emailvalide)) {
+                                            alert("من فضلك ادخل بريد الكترونى صحيح");
+                                        } else {
+//if(jQuery('.DonationForm input.wpcf7-validates-as-email').val()==''){}
+                                            jQuery('.DonateFormInnerDetail').html('اسمك: ' + jQuery('.DonationForm .FirstName input').val() + ' ' + jQuery('.DonationForm .LastName input').val() + '<br/>' + 'عنوانك: ' + jQuery('.DonationForm .Address textarea').val() + ', ' + jQuery('.DonationForm .Country select option:selected').attr('value') + '<br/>' + 'تليفونك: ' + jQuery('.DonationForm .Tel input').val() + '<br/>' + 'بريدك الالكترونى: ' + jQuery('.DonationForm .Email input').val() + '<br/>' + 'مبلغ التبرع: ' + jQuery('.DonationForm .Amount input').val() + ' ' + jQuery('.DonationForm .Currency select option:selected').attr('value') + '<br/>' + 'واجهة الصرف: ' + jQuery('.DonationForm .DonationPurpose select option:selected').attr('value') + '<br/>' + 'ملاحظاتك: ' + jQuery('.DonationForm .Comments textarea').val() + '<br/><br/>' + 'بالضغط على  (تبرع) سوف يتم تحويلك للبنك العربى الافريقى لأستكمال عملية الدفع');
+                                            document.cookie = "DonateFormInnerDetail = " + encodeURIComponent('Name: ' + jQuery('.DonationForm .FirstName input').val() + ' ' + jQuery('.DonationForm .LastName input').val() + '<br/>' + 'Address: ' + jQuery('.DonationForm .Address textarea').val() + ', ' + jQuery('.DonationForm .Country select option:selected').attr('value') + '<br/>' + 'Tel: ' + jQuery('.DonationForm .Tel input').val() + '<br/>' + 'Email: ' + jQuery('.DonationForm .Email input').val() + '<br/>' + 'Amount: ' + jQuery('.DonationForm .Amount input').val() + ' ' + jQuery('.DonationForm .Currency select option:selected').attr('value') + '<br/>' + 'Purpose: ' + jQuery('.DonationForm .DonationPurpose select option:selected').attr('value') + '<br/>' + 'curr: ' + jQuery('.DonationForm .Currency select option:selected').attr('value')) + '; path=/';
+                                            jQuery('.DonationForm').hide();
+                                            jQuery('.DonateFormInnerDetail').show();
+                                            jQuery('.DonateSBTN').show();
+                                            jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+                                            jQuery('.BAFDonate [name="vpc_MerchTxnRef"]').attr('value', jQuery('.DonationForm .Tel input').val());
+                                            jQuery('.BAFDonate [name="vpc_Amount"]').attr('value', jQuery('.DonationForm .Amount input').val() * 100);
+                                            jQuery('.BAFDonate [name="vpc_OrderInfo"]').attr('value', jQuery('.DonationForm .Email input').val());
+
+                                            if (jQuery('.DonationForm .Currency select option:selected').attr('value') == "EGP") {
+                                                jQuery('.BAFDonate [name="vpc_AccessCode"]').attr('value', '3E33EBA6');
+                                                jQuery('.BAFDonate [name="al_secure"]').attr('value', '138EA436D864BF9B5A26BF93BAE91480');
+                                                jQuery('.BAFDonate [name="vpc_Merchant"]').attr('value', '701154');
+                                                jQuery('.BAFDonate [name="vpc_Currency"]').attr('value', 'EGP');
+                                            } else {
+                                                jQuery('.BAFDonate [name="vpc_Currency"]').attr('value', jQuery('.DonationForm .Currency select option:selected').attr('value'));
+                                            }
+                                        }
+                                    }
+                                }
+                                function DonateConfirm() {
+                                    jQuery('.DonateForm').submit();
+
+
+                                }
+                            </script>
+                        <?php } else{ ?>
+
+                            <script type="text/javascript">
+                                function Donate() {
+                                    console.log('aaaaa');
+                                    var valid = 0;
+                                    for (var i = 0; i < jQuery('.DonationForm input.wpcf7-validates-as-required').length; i++) {
+                                        if (jQuery('.DonationForm input.wpcf7-validates-as-required:eq(' + i + ')').val() != '') {
+                                            valid++;
+                                        }
+                                    }
+
+                                    for (var i = 0; i < jQuery('.DonationForm select.wpcf7-validates-as-required').length; i++) {
+                                        if (jQuery('.DonationForm select.wpcf7-validates-as-required:eq(' + i + ') option:selected').attr('value') != '') {
+                                            valid++;
+                                        }
+                                    }
+                                    if (valid < 8) {
+                                        alert("Please enter the required field.");
+                                    }
+                                    else {
+                                        var emailvalide = "^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})";
+                                        if (!jQuery('.DonationForm input.wpcf7-validates-as-email').val().match(emailvalide)) {
+                                            alert("Please enter valide Email");
+                                        } else {
+//if(jQuery('.DonationForm input.wpcf7-validates-as-email').val()==''){}
+                                            jQuery('.DonateFormInnerDetail').html('Your Name: ' + jQuery('.DonationForm .FirstName input').val() + ' ' + jQuery('.DonationForm .LastName input').val() + '<br/>' + 'Your Address: ' + jQuery('.DonationForm .Address textarea').val() + ', ' + jQuery('.DonationForm .Country select option:selected').attr('value') + '<br/>' + 'Your Tel: ' + jQuery('.DonationForm .Tel input').val() + '<br/>' + 'Your Email: ' + jQuery('.DonationForm .Email input').val() + '<br/>' + 'Your Donation Amount: ' + jQuery('.DonationForm .Amount input').val() + ' ' + jQuery('.DonationForm .Currency select option:selected').attr('value') + '<br/>' + 'Your Donation Purpose: ' + jQuery('.DonationForm .DonationPurpose select option:selected').attr('value') + '<br/>' + 'Your Comments: ' + jQuery('.DonationForm .Comments textarea').val() + '<br/><br/>' + 'By Clicking (Donate) you Will be Redirected To Arab African International Bank To Complete Your E-Payment Process');
+                                            document.cookie = "DonateFormInnerDetail = " + encodeURIComponent('Name: ' + jQuery('.DonationForm .FirstName input').val() + ' ' + jQuery('.DonationForm .LastName input').val() + '<br/>' + 'Address: ' + jQuery('.DonationForm .Address textarea').val() + ', ' + jQuery('.DonationForm .Country select option:selected').attr('value') + '<br/>' + 'Tel: ' + jQuery('.DonationForm .Tel input').val() + '<br/>' + 'Email: ' + jQuery('.DonationForm .Email input').val() + '<br/>' + 'Amount: ' + jQuery('.DonationForm .Amount input').val() + ' ' + jQuery('.DonationForm .Currency select option:selected').attr('value') + '<br/>' + 'Purpose: ' + jQuery('.DonationForm .DonationPurpose select option:selected').attr('value') + '<br/>' + 'curr: ' + jQuery('.DonationForm .Currency select option:selected').attr('value')) + '; path=/';
+                                            jQuery('.DonationForm').hide();
+                                            jQuery('.DonateFormInnerDetail').show();
+                                            jQuery('.DonateSBTN').show();
+                                            jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+                                            jQuery('.BAFDonate [name="vpc_MerchTxnRef"]').attr('value', jQuery('.DonationForm .Tel input').val());
+                                            jQuery('.BAFDonate [name="vpc_Amount"]').attr('value', jQuery('.DonationForm .Amount input').val() * 100);
+                                            jQuery('.BAFDonate [name="vpc_OrderInfo"]').attr('value', jQuery('.DonationForm .Email input').val());
+                                            if (jQuery('.DonationForm .Currency select option:selected').attr('value') == "EGP") {
+                                                jQuery('.BAFDonate [name="vpc_AccessCode"]').attr('value', '3E33EBA6');
+                                                jQuery('.BAFDonate [name="al_secure"]').attr('value', '138EA436D864BF9B5A26BF93BAE91480');
+                                                jQuery('.BAFDonate [name="vpc_Merchant"]').attr('value', '701154');
+                                                jQuery('.BAFDonate [name="vpc_Currency"]').attr('value', 'EGP');
+                                            } else {
+                                                jQuery('.BAFDonate [name="vpc_AccessCode"]').attr('value', '02FBF1BA');
+                                                jQuery('.BAFDonate [name="al_secure"]').attr('value', 'A37CA86C8840BD63D1012E5EACF622A6');
+                                                jQuery('.BAFDonate [name="vpc_Merchant"]').attr('value', '701155');
+                                                jQuery('.BAFDonate [name="vpc_Currency"]').attr('value', 'USD');
+                                            }
+                                        }
+                                    }
+                                }
+                                function DonateConfirm() {
+                                    //jQuery('.DonateForm .wpcf7-submit').click();
+
+                                     jQuery('.BAFDonate').submit();
+                                }
+                            </script>
+                        <?php } ?>
+
+                    </div>
+                    <?php if (is_active_sidebar($pageSidebar)) { ?>
+                        <!-- Sidebar -->
+                        <div class="col-md-<?php echo esc_attr($sidebar_column); ?>" id="sidebar-col">
+                            <?php dynamic_sidebar($pageSidebar); ?>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php get_footer(); ?>

@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: alhassanfdn@host66.registrar-servers.com
+Received: from host66.registrar-servers.com
+	by host66.registrar-servers.com with LMTP id sBVtDmYEkVvAyAAA4ueBqA
+	for <alhassanfdn@host66.registrar-servers.com>; Thu, 06 Sep 2018 06:41:42 -0400
+Return-path: <>
+Envelope-to: alhassanfdn@host66.registrar-servers.com
+Delivery-date: Thu, 06 Sep 2018 06:41:42 -0400
+Received: from mailnull by host66.registrar-servers.com with local (Exim 4.91)
+	id 1fxrjK-000Et6-6p
+	for alhassanfdn@host66.registrar-servers.com; Thu, 06 Sep 2018 06:41:42 -0400
+X-Failed-Recipients: alhassan@alhassan.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host66.registrar-servers.com>
+To: alhassanfdn@host66.registrar-servers.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1536230502-eximdsn-731528193
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fxrjK-000Et6-6p@host66.registrar-servers.com>
+Date: Thu, 06 Sep 2018 06:41:42 -0400
+
+--1536230502-eximdsn-731528193
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  alhassan@alhassan.com
+    host alhassan.com [167.99.209.64]
+    SMTP error from remote mail server after RCPT TO:<alhassan@alhassan.com>:
+    550-The mail server could not deliver mail to alhassan@alhassan.com.  The
+    550-account or domain may not exist, they may be blacklisted, or missing the
+    550 proper dns entries.
+
+--1536230502-eximdsn-731528193
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; host66.registrar-servers.com
+
+Action: failed
+Final-Recipient: rfc822;alhassan@alhassan.com
+Status: 5.0.0
+Remote-MTA: dns; alhassan.com
+Diagnostic-Code: smtp; 550-The mail server could not deliver mail to alhassan@alhassan.com.  The
+ 550-account or domain may not exist, they may be blacklisted, or missing the
+ 550 proper dns entries.
+
+--1536230502-eximdsn-731528193
+Content-type: message/rfc822
+
+Return-path: <alhassanfdn@host66.registrar-servers.com>
+Received: from alhassanfdn by host66.registrar-servers.com with local (Exim 4.91)
+	(envelope-from <alhassanfdn@host66.registrar-servers.com>)
+	id 1fxrif-000Eeu-GK
+	for alhassan@alhassan.com; Thu, 06 Sep 2018 06:41:01 -0400
+To: alhassan@alhassan.com
+Subject: [alhassan] Your site has updated to WordPress 4.9.8
+X-PHP-Script: alhassan-fdn.org/wp-cron.php for 185.61.154.16, 185.61.154.16
+X-PHP-Filename: /home/alhassanfdn/public_html/wp-cron.php REMOTE_ADDR: 185.61.154.16
+Date: Thu, 6 Sep 2018 10:41:01 +0000
+From: Alhassan Foundation <mhatem@alhassan-fdn.org>
+Message-ID: <40281f91b9adca7eca3e0b7e339bb5e9@alhassan-fdn.org>
+X-Mailer: WPMailSMTP/Mailer/smtp 1.2.5
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <alhassanfdn@host66.registrar-servers.com>
+
+Howdy! Your site at https://alhassan-fdn.org has been updated automatically to WordPress 4.9.8.
+
+No further action is needed on your part. For more on version 4.9.8, see the About WordPress screen:
+https://alhassan-fdn.org/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+You also have some plugins or themes with updates available. Update them now:
+https://alhassan-fdn.org/wp-admin/
+
+The WordPress Team
+
+
+--1536230502-eximdsn-731528193--

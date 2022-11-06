@@ -1,0 +1,1 @@
+CREATE USER "alhassanfdn" WITH PASSWORD E'md5bebe526c321a82e45cab23623b54c2fc';

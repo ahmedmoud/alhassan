@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/alhassanfdn/public_html
+group: alhassanfdn
+hascgi: 1
+homedir: /home/alhassanfdn
+ip: 185.61.154.18
+ipv6: ~
+owner: dmonbgkp
+phpopenbasedirprotect: 1
+port: 444
+secruleengineoff: ~
+serveradmin: webmaster@alhassan-fdn.org
+serveralias: www.alhassan-fdn.org mail.alhassan-fdn.org
+servername: alhassan-fdn.org
+ssl: 1
+usecanonicalname: 'Off'
+user: alhassanfdn
+userdirprotect: ''

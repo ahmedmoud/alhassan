@@ -1,0 +1,40 @@
+; cPanel first:11.70.0.53 (update_time):1536574933 Cpanel::ZoneFile::VERSION:1.3 hostname:host66.registrar-servers.com latest:11.70.0.53
+; Zone file for alhassan-fdn.org
+$TTL 1200
+alhassan-fdn.org.	1800000	IN	SOA	ns1.dmonx.com.	hosameid.hotmail.com.	(
+						2018091001 ;Serial Number
+						86400 ;refresh
+						7200 ;retry
+						3600000 ;expire
+						86400 ;minimum
+	)
+alhassan-fdn.org.	1800000	IN	NS	ns1.dmonx.com.
+alhassan-fdn.org.	1800000	IN	NS	ns2.dmonx.com.
+alhassan-fdn.org.	1200	IN	A	185.61.154.18
+mail	1200	IN	A	185.61.154.18
+www	1200	IN	CNAME	alhassan-fdn.org.
+ftp	1200	IN	A	185.61.154.18
+cpanel	1200	IN	A	185.61.154.18
+webmail	1200	IN	A	185.61.154.18
+_autodiscover._tcp	1200	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+autodiscover	1200	IN	A	185.61.154.18
+_carddav._tcp	1200	IN	SRV	0	0	2079	host66.registrar-servers.com.
+_carddav._tcp	1200	IN	TXT	path=/
+webdisk	1200	IN	A	185.61.154.18
+whm	1200	IN	A	185.61.154.18
+_caldav._tcp	1200	IN	SRV	0	0	2079	host66.registrar-servers.com.
+_caldav._tcp	1200	IN	TXT	path=/
+cpcalendars	1200	IN	A	185.61.154.18
+cpcontacts	1200	IN	A	185.61.154.18
+_carddavs._tcp	1200	IN	SRV	0	0	2080	host66.registrar-servers.com.
+_carddavs._tcp	1200	IN	TXT	path=/
+autoconfig	1200	IN	A	185.61.154.18
+_caldavs._tcp	1200	IN	SRV	0	0	2080	host66.registrar-servers.com.
+_caldavs._tcp	1200	IN	TXT	path=/
+default._domainkey	1200	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArbTRlPvDG8Yb5t9NvLQ8w2RwEy0EdnllMO1F5tC2fhgWB2fIz9rtwDmOeQS1t4vN1rjSth1RmrEJ9awc8LYd7bentRJWXHMAsH9vmXQF4h3LGrHPLNRKjWsISYfDJJNk7zUuLl0FULe/TSLe+j0mBcvUBEbnT3hjOsDz1vGYZyu3vOoiSP5rADued4rO6AsOH" l78uTTHBBiWIPbgALGhF3KTqUzjSmRyeldGq50zIo+c45vPch5TDxBNsbNcDXQJGK2rvWQaSEr+grosuNHj8CAUz68NtRlqSqhhcudO83NhylxDIsVV57Jr1otn8GatpN6RwkcXWd2bZt+y0USBXQIDAQAB\;
+alhassan-fdn.org.	1200	IN	MX	10	mx.zoho.com.
+alhassan-fdn.org.	1200	IN	MX	20	mx2.zoho.com.
+alhassan-fdn.org.	1200	IN	MX	50	mx3.zoho.com.
+alhassan-fdn.org.	1200	IN	TXT	"v=spf1 include:zoho.com ~all"
+zoho._domainkey	1200	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC14uskjQQXtW5mxaNE2F8/lxWBnfvwCSnRhDAcGRNfxJYKZEJ8c5754KFA43pyM5vIQtFq1skI/1L0KbzQZCe4OYE/lT+O34fjphzjsEO3Sdec7PQuKSzljCgyCW5sOORkOfhUwmiErrcjQ4wsGZRJOU5NDPr0ICRfJZEwbBYu9wIDAQAB"
+

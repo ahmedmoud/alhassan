@@ -1,0 +1,261 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Born To Give Core\n"
+"POT-Creation-Date: 2016-04-08 17:30+0530\n"
+"PO-Revision-Date: 2016-04-08 17:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: btg.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: custom-post-types/event-type.php:12
+msgid "Registrants"
+msgstr ""
+
+#: custom-post-types/event-type.php:13
+msgid "Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:14 custom-post-types/event-type.php:56
+#: custom-post-types/gallery-type.php:25
+#: custom-post-types/testimonial-type.php:12
+msgid "Add New"
+msgstr ""
+
+#: custom-post-types/event-type.php:15
+msgid "Add New Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:16
+msgid "Edit Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:17
+msgid "New Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:18
+msgid "View Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:19
+msgid "Search Registrant"
+msgstr ""
+
+#: custom-post-types/event-type.php:20
+msgid "No registrant have been added yet"
+msgstr ""
+
+#: custom-post-types/event-type.php:21 custom-post-types/event-type.php:64
+#: custom-post-types/gallery-type.php:33 custom-post-types/team-type.php:33
+#: custom-post-types/testimonial-type.php:19
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: custom-post-types/event-type.php:37 custom-post-types/event-type.php:38
+msgid "Registered Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:54
+msgid "Events"
+msgstr ""
+
+#: custom-post-types/event-type.php:55
+msgid "Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:57
+msgid "All Events"
+msgstr ""
+
+#: custom-post-types/event-type.php:58
+msgid "Add New Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:59
+msgid "Edit Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:60
+msgid "New Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:61
+msgid "View Event"
+msgstr ""
+
+#: custom-post-types/event-type.php:62
+msgid "Search Events"
+msgstr ""
+
+#: custom-post-types/event-type.php:63
+msgid "No Events found"
+msgstr ""
+
+#: custom-post-types/event-type.php:68
+msgid "Event Categories"
+msgstr ""
+
+#: custom-post-types/event-type.php:69
+msgid "Event Categroy"
+msgstr ""
+
+#: custom-post-types/event-type.php:81
+msgid "Event Tags"
+msgstr ""
+
+#: custom-post-types/event-type.php:82
+msgid "Event Tag"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:10
+msgid "Gallery Categories"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:11
+msgid "Gallery Category"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:23
+msgid "Gallery"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:24
+msgid "Gallery Item"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:26
+msgid "Gallery items"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:27
+msgid "Add New Gallery Item"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:28
+msgid "Edit Gallery Item"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:29
+msgid "New Gallery Item"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:30
+msgid "View Gallery Item"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:31
+msgid "Search Gallery"
+msgstr ""
+
+#: custom-post-types/gallery-type.php:32
+msgid "No gallery items have been added yet"
+msgstr ""
+
+#: custom-post-types/team-type.php:10
+msgid "Team Categories"
+msgstr ""
+
+#: custom-post-types/team-type.php:11
+msgid "Team Categroy"
+msgstr ""
+
+#: custom-post-types/team-type.php:23 custom-post-types/team-type.php:24
+#: custom-post-types/team-type.php:26
+msgid "Team"
+msgstr ""
+
+#: custom-post-types/team-type.php:25 custom-post-types/team-type.php:27
+msgid "Add New Member"
+msgstr ""
+
+#: custom-post-types/team-type.php:28
+msgid "Edit Team Member"
+msgstr ""
+
+#: custom-post-types/team-type.php:29
+msgid "New Team Member"
+msgstr ""
+
+#: custom-post-types/team-type.php:30
+msgid "View Team Member"
+msgstr ""
+
+#: custom-post-types/team-type.php:31
+msgid "Search Team"
+msgstr ""
+
+#: custom-post-types/team-type.php:32
+msgid "Nothing found"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:10
+msgid "Testimonials"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:11
+msgid "Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:13
+msgid "Add New Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:14
+msgid "Edit Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:15
+msgid "New Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:16
+msgid "View Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:17
+msgid "Search Testimonial"
+msgstr ""
+
+#: custom-post-types/testimonial-type.php:18
+msgid "No testimonials found"
+msgstr ""
+
+#: imic-post-type-permalinks.php:14
+msgid "Permalink Settings for custom post type and their taxonomy"
+msgstr ""
+
+#: imic-post-type-permalinks.php:50
+msgid ""
+"If you don't entered permalink structure, permalink is configured as post "
+"type"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Born To Give Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.imithemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create Post Types for Born To Give Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "imithemes"
+msgstr ""
